@@ -1,0 +1,60 @@
+body {
+	font-family: 'Georgia', sans-serif;
+	line-height: 1.6;
+	color: black;
+}
+
+.main-image {
+  width: 400px;
+  float: right;
+  margin: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
+  
+}
+
+.primary {
+  width: 100%;
+  
+}
+
+
+/*=====================================
+  Media Queries
+===================================== */
+@media(min-width:768px) {
+
+}
+
+  .name,
+  .main-nav,
+  .main-nav li{
+   display: inline;
+   
+}
+   
+  .name {
+  width: 240px;
+  margin-right: 900px;
+}
+    
+ 
+  
+  .portfolio-3-image,
+  .portfolio-6-image {
+  width: 20%;
+  margin-right: 900px;
+}
+  
+  
+
+
+@media(min-width: 1025px) {
+
+}
+
+.primary,
+.secondary,
+.tertiary {
+ width: 20%;
+  }
