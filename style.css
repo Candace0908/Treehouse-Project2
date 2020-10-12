@@ -4,53 +4,44 @@ body {
 	color: black;
 }
 
-h1 {
-  font-size: 25px;
-  color: black;
-}
- .portfolio-1-image {
-  float: right;
-}
-
 /*=====================================
   Media Queries
 ===================================== */
 .portfolio-1-image {
   float: right;
+  width: 267px;
+  height: 175px;
 }
 .portfolio-2-image {
   float: left;
+  width: 267px;
+  height: 175px;
 }
 .portfolio-3-image {
   float: right;
+  width: 260px;
+  height: 200px;
 }
 .portfolio-4-image {
   float: left;
+  width: 260px;
+  height: 200px;
+
 }
 .portfolio-5-image {
   float: right;
+  width: 260px;
+  height: 200px;
 }
 .portfolio-6-image {
   float: left;
+  width: 260px;
+  height: 200px;
 }
 
- .name,
-  .main-nav,
-  .main-nav li{
-   display: inline;
-   
-}
-   
-  .name {
-  width: 240px;
-  margin-right: 900px;
-}
-    
+
+.main-footer {
+  text-align:center;
  
-  
-  .portfolio-3-image,
-  .portfolio-6-image {
-  width: 20%;
-  margin-right: 900px;
 }
-  
+ 
