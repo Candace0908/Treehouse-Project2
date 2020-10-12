@@ -4,29 +4,37 @@ body {
 	color: black;
 }
 
-.main-image {
-  width: 400px;
+h1 {
+  font-size: 25px;
+  color: black;
+}
+ .portfolio-1-image {
   float: right;
-  margin: 5px;
-  margin-right: 25px;
-  margin-left: 25px;
-  
 }
-
-.primary {
-  width: 100%;
-  
-}
-
 
 /*=====================================
   Media Queries
 ===================================== */
-@media(min-width:768px) {
-
+.portfolio-1-image {
+  float: right;
+}
+.portfolio-2-image {
+  float: left;
+}
+.portfolio-3-image {
+  float: right;
+}
+.portfolio-4-image {
+  float: left;
+}
+.portfolio-5-image {
+  float: right;
+}
+.portfolio-6-image {
+  float: left;
 }
 
-  .name,
+ .name,
   .main-nav,
   .main-nav li{
    display: inline;
@@ -46,15 +54,3 @@ body {
   margin-right: 900px;
 }
   
-  
-
-
-@media(min-width: 1025px) {
-
-}
-
-.primary,
-.secondary,
-.tertiary {
- width: 20%;
-  }
